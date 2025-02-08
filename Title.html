@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>title</title>
+    <style>
+        .head {
+            background-color: navy;
+            color: white;
+            font-size: 25;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 7px;
+        }
+
+        .a {
+            font-size: 15;
+            margin-right: 8px;
+        }
+
+        .body {
+            background-color: lightgray;
+            margin: 0;
+        }
+
+        .box {
+            background-color: white;
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 4px;
+        }
+
+        .but {
+            background-color: navy;
+            color: white;
+            margin-right: 6px;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .butt {
+            background-color: navy;
+            color: white;
+            margin-right: 6px;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .text {
+            width: 100%;
+            margin-bottom: 20px;
+            text-align: top;
+        }
+
+        .int {
+            width: 100%;
+            padding: 20px;
+            font-size: 30;
+            font-weight: bold;
+            /* border-bottom:3px; */
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            margin-bottom: 5px;
+        }
+
+        .shift {
+            display: flex;
+            justify-content: end;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <div class="head">Blogs
+        <div>
+            <span class="a">Ishwarikanse</span>
+            <span class="a"><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span>
+            <span class="a">Logout</span>
+        </div>
+    </div>
+    <div class="box">
+        <input type="text" placeholder="Title" class="int"></input>
+        <div>
+            <textarea class="text" rows="10" cols="20" placeholder="Description"></textarea>
+            <div class="shift">
+                <button class="but">Cancle</button>
+                <button class="butt">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
